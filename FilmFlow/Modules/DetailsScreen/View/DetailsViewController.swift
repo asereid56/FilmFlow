@@ -84,7 +84,7 @@ class DetailsViewController: UIViewController, DetailsScreen {
             
             let ok = UIAlertAction(title: "OK", style: .default) { [self] _ in
                 let selected = presenter?.selectedMovie
-                if (presenter?.isMovieInFav(movie: selected!))! == false {
+                if (presenter?.isMovieInFav(movie: selected!)) == false {
                     presenter?.insertMovieToFav(movie: selected!)
                     presenter?.checkMovieInFavToFillHeartIcon(movie: selected!)
                 } else {

@@ -31,4 +31,8 @@ class FavoritePresenter{
     func getFavMoviesResult() -> [NSManagedObject] {
         return favMovies 
     }
+    
+    func passSelectedMovieToDetails(movie: Movie , detailsPresenter : DetailsPresenter) {
+        detailsPresenter.showDetailsOfOnlineMovie(movie: movie )
+    }
 }

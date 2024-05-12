@@ -248,7 +248,7 @@ extension HomeScreenViewController : UICollectionViewDataSource , UICollectionVi
             
             let imageData = firstHalfPath + upcomingMovie.posterPath
             filmImage.sd_setImage(with: URL(string: imageData), placeholderImage: UIImage(named: "placeholder.png"))
-        } else if let savedMovie = movie as?  NSManagedObject{
+        } else if movie is  NSManagedObject{
             
             let filmImage: UIImageView = cell.contentView.viewWithTag(2) as! UIImageView
             

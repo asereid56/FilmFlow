@@ -43,13 +43,13 @@ class FavouriteViewController: UIViewController , UICollectionViewDelegateFlowLa
         
         let deletedMovie = presenter?.getFavMoviesResult()[indexPath.row]
      
-       var alert =  UIAlertController(title: "Alert", message: "Do you want to delete this movie?", preferredStyle: .actionSheet)
-        var ok : UIAlertAction = UIAlertAction(title: "Ok", style: .default, handler: {_ in 
+        let alert =  UIAlertController(title: "Alert", message: "Do you want to delete this movie?", preferredStyle: .actionSheet)
+        let ok : UIAlertAction = UIAlertAction(title: "Ok", style: .default, handler: {_ in 
             self.presenter?.deleteMovie(movie: deletedMovie!)
             self.myFavouriteCollection.deleteItems(at: [indexPath])
         })
        
-        var cancel : UIAlertAction = UIAlertAction(title: "Cancel", style:.cancel)
+        let cancel : UIAlertAction = UIAlertAction(title: "Cancel", style:.cancel)
         
         alert.addAction(ok)
        
@@ -108,11 +108,17 @@ extension FavouriteViewController : UICollectionViewDelegate , UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailsScreen : DetailsViewController = self.storyboard?.instantiateViewController(identifier: "details") as! DetailsViewController
+        let detailsPresenter = detailsScreen.initializeDetailsPresenter()
+        
         let managedMovie : NSManagedObject = presenter!.getFavMoviesResult()[indexPath.row]
+        
         var selectedMovie = Movie(id: managedMovie.value(forKey: "id") as! Int, originalTitle: managedMovie.value(forKey: "title") as! String, overview: managedMovie.value(forKey: "desc") as! String, posterPath: managedMovie.value(forKey: "imageUrl") as! String, releaseDate: managedMovie.value(forKey: "releaseYear") as! String, voteAverage: managedMovie.value(forKey: "rating") as! Double)
         
-        let detailsScreen : DetailsViewController = self.storyboard?.instantiateViewController(identifier: "details") as! DetailsViewController
-      //  detailsScreen.selected = selectedMovie
+        presenter?.passSelectedMovieToDetails(movie: selectedMovie, detailsPresenter: detailsPresenter)
+        
+        
+      
         self.navigationController?.pushViewController(detailsScreen, animated: true)
     }
     

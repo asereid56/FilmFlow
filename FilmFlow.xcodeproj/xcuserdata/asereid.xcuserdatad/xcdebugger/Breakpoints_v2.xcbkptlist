@@ -130,53 +130,6 @@
             endingLineNumber = "36"
             landmarkName = "updateDetailsView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "10E3A443-1740-4E4E-B552-1252B971C879 - 7094655b804b93d5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "126">
-               </Location>
-               <Location
-                  uuid = "10E3A443-1740-4E4E-B552-1252B971C879 - 7094655b804b93d5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "187">
-               </Location>
-               <Location
-                  uuid = "10E3A443-1740-4E4E-B552-1252B971C879 - 7094655b804b9334"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "126">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -193,38 +146,6 @@
             endingLineNumber = "60"
             landmarkName = "updateDetailsView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0071BEA4-F49A-4DA1-986D-A735722230CD - 7094655b804b94cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "3916">
-               </Location>
-               <Location
-                  uuid = "0071BEA4-F49A-4DA1-986D-A735722230CD - 7094655b804b94cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "3663">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -241,38 +162,6 @@
             endingLineNumber = "51"
             landmarkName = "updateDetailsView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2CF43C9C-F4D1-4FF2-9706-64B990571973 - 7094655b804b95fa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "2062">
-               </Location>
-               <Location
-                  uuid = "2CF43C9C-F4D1-4FF2-9706-64B990571973 - 7094655b804b95fa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "2031">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -289,38 +178,6 @@
             endingLineNumber = "49"
             landmarkName = "updateDetailsView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CA49BE66-85E8-4659-9256-EF31FFE1031F - 7094655b804b95b8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "1778">
-               </Location>
-               <Location
-                  uuid = "CA49BE66-85E8-4659-9256-EF31FFE1031F - 7094655b804b95b8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FilmFlow.ViewController.updateDetailsView() -&gt; ()"
-                  moduleName = "FilmFlow"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/ASER/Swift%20Language/Swift%20Labs/FilmFlow/FilmFlow/Modules/DetailsScreen/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "1692">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
